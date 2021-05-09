@@ -53,6 +53,10 @@
   text-decoration: none;
 }
 
+.header__link:hover {
+  opacity: 0.5;
+}
+
 .header__main-illustration {
   width: 765px;
   height: 608px;
@@ -121,7 +125,7 @@
   flex-direction: column;
 }
 
-.two-columns__main-text :last-child {
+.two-columns__main-text:last-child {
   margin-bottom: 0;
 }
 
@@ -267,6 +271,10 @@
   font-weight: normal;
   color: #2f80ed;
   text-decoration: none;
+}
+
+.feynman__link:hover {
+  opacity: 0.5;
 }
 
 .kaufman {
