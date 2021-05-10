@@ -4,4 +4,9 @@
   margin: auto;
   margin-left: 0;
   margin-right: 10px;
+  transition: opacity .3s linear;
+}
+
+.footer__social-icon:hover {
+  opacity: 0.5;
 }
